@@ -1,0 +1,243 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Smart Watch UI
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#191919] text-white min-h-screen flex items-center justify-center p-4">
+  <div class="max-w-[1200px] w-full flex flex-col md:flex-row gap-6">
+   <!-- Left Cover Section -->
+   <div class="flex-1 bg-[#191919] flex flex-col justify-center px-6 py-8 max-w-[480px]">
+    <div class="mb-4 flex items-center gap-2 text-gray-400 text-sm font-normal select-none">
+     <i class="far fa-window-maximize">
+     </i>
+     <span>
+      Cover
+     </span>
+    </div>
+    <div class="relative w-full h-[320px] md:h-[400px] rounded-2xl overflow-visible">
+     <img alt="Collage of smart watch app UI tiles with dark background and orange highlights" class="absolute top-0 left-0 w-[400px] h-[400px] object-cover rounded-2xl -rotate-[15deg] -translate-x-6 -translate-y-6" draggable="false" height="400" src="https://storage.googleapis.com/a1aa/image/fa14e2f8-2fc2-4a9a-61f7-772826014bb3.jpg" width="400"/>
+    </div>
+    <div class="mt-8 max-w-[180px]">
+     <p class="text-white font-semibold text-lg leading-snug">
+      UI for Smart
+      <br/>
+      Watch app
+     </p>
+    </div>
+   </div>
+   <!-- Right Instagram_1 Section -->
+   <div class="flex-1 bg-[#FF3F0F] p-6 rounded-2xl grid grid-cols-3 gap-6 max-w-[720px]">
+    <!-- E-chronos card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex items-center justify-center text-white font-semibold text-lg leading-tight select-none">
+     <span>
+      <span class="text-[#FF3F0F]">
+       E
+      </span>
+      -chronos
+     </span>
+    </div>
+    <!-- Heart Rate graph top -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center justify-center select-none">
+     <p class="text-[8px] text-[#3B3B3B] mb-1">
+      Heart Rate
+     </p>
+     <img alt="Heart rate graph with orange and white dots and line on dark background" class="w-12 h-12 object-contain" draggable="false" height="48" src="https://storage.googleapis.com/a1aa/image/d93a7307-3c63-42d4-2a39-322e733a4f05.jpg" width="48"/>
+     <div class="flex justify-center space-x-1 mt-1">
+      <span class="w-2 h-2 rounded-full bg-[#FF3F0F]">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-white">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-[#FF3F0F]">
+      </span>
+     </div>
+    </div>
+    <!-- Night Changes music card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center text-center select-none">
+     <img alt="Round profile picture of a person with dark background" class="w-12 h-12 rounded-full mx-auto mb-2 object-cover" draggable="false" height="48" src="https://storage.googleapis.com/a1aa/image/5e35d3d6-a6a8-4c88-12f0-f9528912cee6.jpg" width="48"/>
+     <p class="text-white font-semibold text-sm mb-1">
+      Night Changes
+     </p>
+     <p class="text-[#FF3F0F] text-xs mb-3">
+      One Direction
+     </p>
+     <div class="flex items-center justify-center space-x-3">
+      <i class="fas fa-backward text-[#FF3F0F] text-xs cursor-pointer">
+      </i>
+      <button class="bg-[#FF3F0F] w-8 h-8 rounded-full flex items-center justify-center text-white text-sm">
+       <i class="fas fa-play">
+       </i>
+      </button>
+      <i class="fas fa-forward text-[#FF3F0F] text-xs cursor-pointer">
+      </i>
+     </div>
+    </div>
+    <!-- Total Balance card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col select-none">
+     <p class="text-xs text-white font-light mb-2">
+      Total Balance
+     </p>
+     <div class="bg-gradient-to-r from-[#FF3F0F] to-[#FF6A3D] rounded-xl p-4 text-white font-semibold text-lg leading-tight mb-2">
+      12,000$
+     </div>
+     <div class="flex justify-between items-center text-xs text-white font-light">
+      <span>
+       4567 **** 2834
+      </span>
+      <span>
+       Pass To Pay
+      </span>
+      <i class="fas fa-angle-right">
+      </i>
+     </div>
+    </div>
+    <!-- It's time to drink some water card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <img alt="Orange water drop icon on dark background" class="w-8 h-8 mb-3 object-contain" draggable="false" height="32" src="https://storage.googleapis.com/a1aa/image/35f5dd5f-25ff-4ee4-5ad5-30e03f6c6c7e.jpg" width="32"/>
+     <p class="text-white font-semibold text-sm mb-1">
+      It's time to drink some water
+     </p>
+     <div class="flex justify-center space-x-1">
+      <span class="w-2 h-2 rounded-full bg-white">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-[#FF3F0F]">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-white">
+      </span>
+     </div>
+    </div>
+    <!-- 20% Low Charging card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <img alt="Battery icon with low charge indicator in orange on dark background" class="w-8 h-8 mb-3 object-contain" draggable="false" height="32" src="https://storage.googleapis.com/a1aa/image/1acc1edd-b823-42f3-719f-3d53dfff682c.jpg" width="32"/>
+     <p class="text-white font-semibold text-2xl mb-1">
+      20%
+     </p>
+     <p class="text-[#FF3F0F] text-xs">
+      Low Charging
+     </p>
+    </div>
+    <!-- Watch face card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center select-none">
+     <img alt="Smart watch face UI with orange and white details on dark background" class="w-24 h-24 rounded-xl object-cover mb-2" draggable="false" height="96" src="https://storage.googleapis.com/a1aa/image/05e8407a-8075-4173-b526-cd8f4417bdef.jpg" width="96"/>
+     <p class="text-white font-semibold text-xs">
+      13 : 15
+     </p>
+     <p class="text-[#FF3F0F] text-xs">
+      4 Feb
+     </p>
+    </div>
+    <!-- 100$ Confirm transaction card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <p class="text-white font-semibold text-lg mb-2">
+      100$
+     </p>
+     <p class="text-[#FF3F0F] text-xs mb-3">
+      Confirm transaction
+     </p>
+     <img alt="Orange fingerprint icon on dark background" class="w-8 h-8 object-contain" draggable="false" height="32" src="https://storage.googleapis.com/a1aa/image/39d8d452-b850-4af3-ccf3-1772a6b60300.jpg" width="32"/>
+    </div>
+    <!-- 120 bpm graph card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <p class="text-white font-semibold text-2xl mb-2">
+      120
+     </p>
+     <p class="text-[#FF3F0F] text-xs mb-3">
+      bpm
+     </p>
+     <img alt="Heart rate bar graph with orange and white bars on dark background" class="w-24 h-12 object-contain" draggable="false" height="48" src="https://storage.googleapis.com/a1aa/image/1c409e00-78a1-4469-d5d2-5845ac38b594.jpg" width="96"/>
+     <div class="flex justify-center space-x-1 mt-1">
+      <span class="w-2 h-2 rounded-full bg-white">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-[#FF3F0F]">
+      </span>
+      <span class="w-2 h-2 rounded-full bg-white">
+      </span>
+     </div>
+    </div>
+    <!-- Anima Agrawal calling card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center text-center select-none">
+     <img alt="Round profile picture of a person with dark background" class="w-12 h-12 rounded-full mb-2 object-cover" draggable="false" height="48" src="https://storage.googleapis.com/a1aa/image/5e35d3d6-a6a8-4c88-12f0-f9528912cee6.jpg" width="48"/>
+     <p class="text-white font-semibold text-sm mb-1">
+      Anima Agrawal
+     </p>
+     <p class="text-[#FF3F0F] text-xs mb-3">
+      Calling...
+     </p>
+     <div class="flex space-x-4">
+      <button class="bg-[#3B3B3B] w-8 h-8 rounded-full flex items-center justify-center text-white text-xs">
+       <i class="fas fa-phone-slash">
+       </i>
+      </button>
+      <button class="bg-[#FF3F0F] w-8 h-8 rounded-full flex items-center justify-center text-white text-xs">
+       <i class="fas fa-phone">
+       </i>
+      </button>
+     </div>
+    </div>
+    <!-- 32° Bratislava weather card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <img alt="Orange sun icon on dark background" class="w-8 h-8 mb-3 object-contain" draggable="false" height="32" src="https://storage.googleapis.com/a1aa/image/79e7920b-dc7f-48ca-c0b4-2c2a539f5c3d.jpg" width="32"/>
+     <p class="text-white font-semibold text-2xl mb-1">
+      32°
+     </p>
+     <p class="text-[#FF3F0F] text-xs">
+      Bratislava
+     </p>
+    </div>
+    <!-- Schedule call with Alex card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-6 flex flex-col items-center text-center select-none">
+     <button class="bg-[#FF3F0F] w-12 h-12 rounded-full flex items-center justify-center text-white text-lg mb-3">
+      <i class="fas fa-microphone">
+      </i>
+     </button>
+     <p class="text-white text-xs leading-tight">
+      Schedule a call with
+      <br/>
+      <span class="font-semibold">
+       Alex on Monday at 12:30
+      </span>
+     </p>
+    </div>
+    <!-- Map card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center select-none">
+     <img alt="Map with route line and orange location markers on dark background" class="w-24 h-36 rounded-xl object-cover" draggable="false" height="144" src="https://storage.googleapis.com/a1aa/image/19531dde-e52e-4af9-4214-6d7534608860.jpg" width="96"/>
+    </div>
+    <!-- Schedule call with Alex small card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-3 flex flex-col items-center text-center select-none col-span-2">
+     <p class="text-white text-xs leading-tight mb-2">
+      Robert
+      <br/>
+      <span class="font-semibold">
+       Schedule a call with Alex on Monday at 12:30
+      </span>
+     </p>
+     <button class="bg-[#FF3F0F] w-full rounded-xl py-2 flex items-center justify-center space-x-3">
+      <i class="fas fa-play">
+      </i>
+      <span class="text-white text-xs font-semibold">
+       Play
+      </span>
+     </button>
+    </div>
+    <!-- March calendar card -->
+    <div class="bg-[#2B2B2B] rounded-xl p-4 flex flex-col items-center select-none">
+     <p class="text-white font-semibold text-sm mb-3">
+      March
+     </p>
+     <img alt="Calendar for March with orange highlighted dates on dark background" class="w-24 h-24 rounded-xl object-cover" draggable="false" height="96" src="https://storage.googleapis.com/a1aa/image/2db2ad4c-3b8b-495a-d226-8df15f195894.jpg" width="96"/>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
